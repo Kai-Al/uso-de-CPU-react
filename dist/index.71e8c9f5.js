@@ -2941,76 +2941,35 @@ const App = ()=>{
             columnNumber: 13
         },
         __self: undefined
-    }, "CPU Usage"), /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.BarChart), {
+    }, "CPU Usage"), /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.LineChart), {
         width: 600,
         height: 300,
         data: data,
         __source: {
             fileName: "src/client.js",
-            lineNumber: 34,
+            lineNumber: 35,
             columnNumber: 13
         },
         __self: undefined
     }, /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.XAxis), {
         dataKey: "name",
-        __source: {
-            fileName: "src/client.js",
-            lineNumber: 35,
-            columnNumber: 17
-        },
-        __self: undefined
-    }), /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.YAxis), {
         __source: {
             fileName: "src/client.js",
             lineNumber: 36,
             columnNumber: 17
         },
         __self: undefined
-    }), /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.Tooltip), {
+    }), /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.YAxis), {
         __source: {
             fileName: "src/client.js",
             lineNumber: 37,
             columnNumber: 17
         },
         __self: undefined
-    }), /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.Bar), {
-        dataKey: "value",
-        fill: "#8884d8",
-        __source: {
-            fileName: "src/client.js",
-            lineNumber: 38,
-            columnNumber: 17
-        },
-        __self: undefined
-    })), /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.LineChart), {
-        width: 600,
-        height: 300,
-        data: data,
-        __source: {
-            fileName: "src/client.js",
-            lineNumber: 40,
-            columnNumber: 13
-        },
-        __self: undefined
-    }, /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.XAxis), {
-        dataKey: "name",
-        __source: {
-            fileName: "src/client.js",
-            lineNumber: 41,
-            columnNumber: 17
-        },
-        __self: undefined
-    }), /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.YAxis), {
-        __source: {
-            fileName: "src/client.js",
-            lineNumber: 42,
-            columnNumber: 17
-        },
-        __self: undefined
     }), /*#__PURE__*/ (0, _reactDefault.default).createElement((0, _recharts.Tooltip), {
         __source: {
             fileName: "src/client.js",
-            lineNumber: 43,
+            lineNumber: 38,
             columnNumber: 17
         },
         __self: undefined
@@ -3020,7 +2979,7 @@ const App = ()=>{
         stroke: "#8884d8",
         __source: {
             fileName: "src/client.js",
-            lineNumber: 44,
+            lineNumber: 39,
             columnNumber: 17
         },
         __self: undefined
@@ -3031,7 +2990,7 @@ _c = App;
 (0, _reactDomDefault.default).render(/*#__PURE__*/ (0, _reactDefault.default).createElement(App, {
     __source: {
         fileName: "src/client.js",
-        lineNumber: 51,
+        lineNumber: 46,
         columnNumber: 17
     },
     __self: undefined

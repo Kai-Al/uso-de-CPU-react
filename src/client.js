@@ -31,12 +31,6 @@ const App = () => {
     return (
         <div>
             <h1>CPU Usage</h1>
-            <BarChart width={600} height={300} data={data}>
-                <XAxis dataKey="name" />
-                <YAxis />
-                <Tooltip />
-                <Bar dataKey="value" fill="#8884d8" />
-            </BarChart>
             <LineChart width={600} height={300} data={data}>
                 <XAxis dataKey="name" />
                 <YAxis />
@@ -45,8 +39,6 @@ const App = () => {
             </LineChart>
         </div>
     );
-     
 };
 
 ReactDOM.render(<App />, document.getElementById("root"));
-
